@@ -1,16 +1,16 @@
 # Maintainer: Gianni Ferrarotti <gianni.ferrarotti@gmail.com>
 
 pkgname=azadi-noweb
-pkgver=1.0.0
+pkgver=0.1.1
 pkgrel=1
 pkgdesc="A Rust implementation of noweb-style literate programming tool"
-url="https://github.com/giannifer7/azadi-noweb"
+url="https://github.com/giannifer7/$pkgname"
 license=('MIT')
 makedepends=('cargo')
 depends=()
 arch=('i686' 'x86_64' 'armv6h' 'armv7h')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/giannifer7/$pkgname/archive/v$pkgver.tar.gz")
-sha512sums=('5270a8f9c9f69f35fa9554e6b99af9cf8bfa18ca3f0bd47ed8e6506f843fec2fb28d24af99c34a793ee1f8d74caf5e970921b95d3f633df0d7abf6af3f41392a')
+sha512sums=('f26f5245401f5b3e56933e76c22cda2d698a1b2ba753541298724d08447762b9a7f8e7cd4886f826a3666b94dfaef9e42da4296d49b1b578a9789933a0fe7cfa')
 
 prepare() {
     cd "$pkgname-$pkgver"
@@ -34,5 +34,5 @@ check() {
 package() {
     cd "$pkgname-$pkgver"
     install -Dm0755 -t "$pkgdir/usr/bin/" "target/release/$pkgname"
-    install -Dm644 "LICENSE" "$pkgdir/usr/share/licenses/${pkgname}/LICENSE"
+    install -Dm644 "LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
