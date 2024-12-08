@@ -1,7 +1,7 @@
 # Maintainer: Gianni Ferrarotti <gianni.ferrarotti@gmail.com>
 
 pkgname=azadi-noweb
-pkgver=0.1.1
+pkgver=0.1.2
 pkgrel=1
 pkgdesc="A Rust implementation of noweb-style literate programming tool"
 url="https://github.com/giannifer7/$pkgname"
@@ -10,7 +10,7 @@ makedepends=('cargo')
 depends=()
 arch=('i686' 'x86_64' 'armv6h' 'armv7h')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/giannifer7/$pkgname/archive/v$pkgver.tar.gz")
-sha512sums=('f26f5245401f5b3e56933e76c22cda2d698a1b2ba753541298724d08447762b9a7f8e7cd4886f826a3666b94dfaef9e42da4296d49b1b578a9789933a0fe7cfa')
+sha512sums=('42d8de465c83decdb4d0d34981872359fe2ada9ba3bc0ac995b6912f62a5906a9d0e9631e23c03cdd36142452804296fff5099f9bc709d9df990fd89c8ae105d')
 
 prepare() {
     cd "$pkgname-$pkgver"
