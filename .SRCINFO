@@ -1,6 +1,6 @@
 pkgbase = azadi-noweb
 	pkgdesc = A Rust implementation of noweb-style literate programming tool
-	pkgver = 0.1.2
+	pkgver = 0.1.1
 	pkgrel = 1
 	url = https://github.com/giannifer7/azadi-noweb
 	arch = i686
@@ -9,7 +9,7 @@ pkgbase = azadi-noweb
 	arch = armv7h
 	license = MIT
 	makedepends = cargo
-	source = azadi-noweb-0.1.2.tar.gz::https://github.com/giannifer7/azadi-noweb/archive/v0.1.2.tar.gz
-	sha512sums = 83b233803953a3f7ed7f6064e3269a24da8127b7e14e7cf16b0b4826ded369b0152dbeadc829d957756040581724d30c419774a92f2660b18b3ec118ddc0c904
+	source = azadi-noweb-0.1.1.tar.gz::https://github.com/giannifer7/azadi-noweb/archive/v0.1.1.tar.gz
+	sha512sums = 0481bf6b15d1a14b1cff7f8e8df6a5b203a057b9508e5429389cf9b1f7681f8b4135ae5969486e40920a53e8ddf98b8e176f15db8530e335db73f36ea493be16
 
 pkgname = azadi-noweb
