@@ -10,7 +10,7 @@ makedepends=('cargo')
 depends=()
 arch=('i686' 'x86_64' 'armv6h' 'armv7h')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/giannifer7/$pkgname/archive/v$pkgver.tar.gz")
-sha512sums=('0481bf6b15d1a14b1cff7f8e8df6a5b203a057b9508e5429389cf9b1f7681f8b4135ae5969486e40920a53e8ddf98b8e176f15db8530e335db73f36ea493be16')
+sha512sums=('a335a83cb68bb72c2277f3011bbc0d0a8a6a5dadce1df9feea81af194549b8842d095fbae50c266b1e50fa2ba2e60bfb968c3babfe236f3e3737011d7b7e5f3e')
 
 prepare() {
     cd "$pkgname-$pkgver"
